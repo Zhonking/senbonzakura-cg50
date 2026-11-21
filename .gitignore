@@ -1,0 +1,18 @@
+# Source videos and large local tools
+source.mp4
+*.mp4
+tools/python/
+tools/*.whl
+
+# Conversion intermediates
+build-native/
+build-test/
+dist/build-native/
+dist/build-test/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Release archive is uploaded as a Release asset
+SenbonZakura-fx-CG50.zip
